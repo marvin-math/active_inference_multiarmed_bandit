@@ -1,2 +1,3 @@
-# active_inference_multiarmed_bandit
-an active inference agent that plays a multi-armed bandit game
+# Active_Inference_multiarmed_bandit
+An Active Inference agent that plays a multi-armed bandit game. Active Inference is a neuroscientific theory of how self-organizing organisms self organise. As such, it describes how adaptive behaviour can emerge from minimizing a so-called variational free energy functional. Given certain assumptions, it can directly be derived from Bayesian Inference. 
+In this repository, I created an Active Inference agent that plays a multi-armed bandit game. For comparison, the Bandit class also contains methods to initialise UCB and Thompson Sampling reinforcement learning agents. A mathematical derivation of the Active Inference agent can be found in the thesis that is also part of this repository. In short, instead of using gradient descent, the setup of the task allowed for an analytical solution to the involved variational inference problem. The main code can be found in the thesis_code.ipynb colab file.
